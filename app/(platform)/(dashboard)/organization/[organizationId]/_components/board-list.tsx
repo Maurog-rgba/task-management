@@ -33,7 +33,7 @@ export const BoardList = async () => {
         {boards.map((board: any) => (
           <Link
             key={board.id}
-            href={'/board/${board.id}'}
+            href={`/board/${board.id}`}
             style={{ backgroundImage: `url(${board.imageThumbUrl})` }}
             className="group relative aspect-video bg-no-repeat bg-center bg-cover bg-sky-700 rounded-sm w-full h-full p-2 overflow-hidden"
           >
