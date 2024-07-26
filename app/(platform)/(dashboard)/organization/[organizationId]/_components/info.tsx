@@ -23,7 +23,7 @@ export const Info = () => {
           height={60}
         />
       </div>
-      <div className="space-y-1">
+      <div className="space-y-1 p-3">
         <p className="font-semibold text-xl">
           {organization?.name}
         </p>
